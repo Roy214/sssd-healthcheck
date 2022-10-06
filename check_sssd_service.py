@@ -1,5 +1,9 @@
+"""
+Check if sssd service is running
+* Author:    abroy@redhat.com
+"""
 import os
-import command
+#import command
 
 def is_sssd_active():
     status = os.system("systemctl status sssd" '> /dev/null')
