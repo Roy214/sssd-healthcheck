@@ -6,8 +6,14 @@
 This program will check if srv records for "ldap" and "kerberos" service are resolvable
 
 """
+import sys
+
+sys.path.insert(1, './../py-venv/lib/python3.6/site-packages')
+sys.path.insert(1, './../py-venv/lib64/python3.6/site-packages')
+
 import dns.resolver
 import dns.query
+
 
 domain = input ("Please enter ldap domain:")
 try:
