@@ -14,3 +14,9 @@ This tool will validate multiple components in order to work sssd smoothly with 
     - sdap_async_sys_connect request failed: Connection timed out.
     - Check if the login is being denied by AD-GPO.
     - Use sssctl analyze tool to anlayze the log.
+
+## Upstream sssd Documentation 
+The most up-to-date documentation of sssd can be found at https://sssd.io.
+  
+## Contacts
+
