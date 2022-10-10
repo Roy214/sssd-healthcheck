@@ -14,3 +14,4 @@ This tool will validate multiple components in order to work sssd smoothly with 
   - Check if sssd backend is going offline.
   - Check if any of the sssd service is getting killed by watchdog.
   - Check if the login is being denied by AD-GPO.
+  - Use sssctl analyze tool to anlayze the log.
